@@ -1,0 +1,38 @@
+<footer>
+
+    <div class="links">
+        <div class="page-main d-flex justify-content-around text-center text-white">
+            <div>
+                <a [href]="text.links[0].url"><img src="assets/images/logo-bluecloud.png" alt=""></a>                
+            </div>
+            <div>
+                <p><a [href]="text.links[1].url">{{text.links[1].title}}</a></p>
+                <p><a [href]="text.links[2].url">{{text.links[2].title}}</a></p>
+                <p><a [href]="text.links[3].url">{{text.links[3].title}}</a></p>
+
+            </div>
+            <div>
+                <p><a [href]="text.links[4].url">{{text.links[4].title}}</a></p>
+                <p><a [href]="text.links[5].url">{{text.links[5].title}}</a></p>
+                <p><a [href]="text.links[6].url">{{text.links[6].title}}</a></p>
+
+            </div>
+            <div>
+                <p><a [href]="text.links[7].url">{{text.links[7].title}}</a></p>
+                <p><a [href]="text.links[8].url">{{text.links[8].title}}</a></p>
+                <p><a [href]="text.links[9].url">{{text.links[9].title}}</a></p>
+
+            </div>
+            <div>
+                <p><img src="assets/images/tel.png" alt="" class="mr-1" width="20">{{text.links[10].title}}</p>
+                <p><a href="mailto:{{text.links[10].url}}">{{text.links[10].url}}</a></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="company text-center text-white">
+       <p>{{text.copyright[0]}}</p>
+       <p>{{text.copyright[1]}}</p>
+       <p>{{text.copyright[2]}}</p>
+    </div>
+</footer>

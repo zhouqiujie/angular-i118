@@ -1,0 +1,42 @@
+{
+	"header": {
+		"menu": [
+			{
+				"title": "首页",
+				"url": "/",
+				"isUrl": false
+			},
+			{
+				"title": "导航1",
+				"url": "product",
+				"isUrl": false
+			},
+			{
+				"title": "导航2",
+				"url": "solution",
+				"isUrl": false
+			},
+			{
+				"title": "导航3",
+				"url": "user-story",
+				"isUrl": false
+			},
+			{
+				"title": "导航4",
+				"url": "cooperation",
+				"isUrl": false
+			},
+			{
+				"title": "导航5",
+				"url": "csp",
+				"isUrl": false
+			},
+			{
+				"title": "导航6",
+				"url": "about",
+				"isUrl": false
+			}
+		]
+	},
+	"siteLogo": "/assets/images/logo-cn.png"
+}

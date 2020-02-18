@@ -1,0 +1,15 @@
+:host {
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    z-index: 100;
+    .support {
+        padding: 10px;
+        background-color: #009EFF;
+        border-radius: 5px;
+        box-shadow: -1px 1px 12px 0px rgba(14,67,92,0.08);;
+        img {
+            width: 40px;
+        }
+    }
+}

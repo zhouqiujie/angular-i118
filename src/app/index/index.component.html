@@ -1,0 +1,273 @@
+<div class="swiper-container" #bannerSwiper [swiper]="swiperConfig">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let item of text.banner">
+            <a [href]="item.url">
+                <img [src]="item.img" alt="" class="d-block w-100">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<!-- <div class="page-main mb-5">
+    <div class="title text-dark text-center pt-5">
+        <h3>{{text.section1.title}}</h3>
+        <img src="assets/images/line-arrow.png" alt="">
+    </div>
+    <h5 class="subtitle text-secondary mx-auto text-center pt-3 pb-3">
+        {{text.section1.subTitle}}
+    </h5>
+    <div class="d-flex justify-content-around pt-3 pb-3">
+        <div class="text-center hover-translate mr-2">
+            <img src="assets/images/img1.png" alt="" style="width: 80%; max-width: 180px;">
+            <p class=" pt-2">{{text.section1.content[0].title}}</p>
+            <a href="" class="ft-14">{{text.section1.content[0].linkText}}</a>
+        </div>
+        <div class="text-center hover-translate mr-2">
+            <img src="assets/images/img2.png" alt="" style="width: 80%; max-width: 180px;">
+            <p class=" pt-2">{{text.section1.content[1].title}}</p>
+            <a href="" class="ft-14">{{text.section1.content[0].linkText}}</a>
+        </div>
+        <div class="text-center hover-translate">
+            <img src="assets/images/img3.png" alt="" style="width: 80%; max-width: 180px;">
+            <p class=" pt-2">{{text.section1.content[2].title}}</p>
+            <a href="" class="ft-14">{{text.section1.content[0].linkText}}</a>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div style="background: url(assets/images/product/bg1.png) no-repeat center center; background-size: cover;">
+
+    <div class="title text-dark text-center pt-5">
+        <h3>{{text.videoTitle}}</h3>
+        <img src="assets/images/line-arrow.png" alt="">
+    </div>
+    <div class="page-main position-relative">
+        <img src="assets/images/product/imac.png" class="w-100" alt="">
+        <div class="video-box">
+            <video controls="" poster="assets/images/product/imac-img.png"
+                src="" width="100%" #video></video>
+            <a href="javascript:;" class="video-btn" *ngIf="btnShow" (click)="play()">
+                <img src="assets/images/product/play.png" alt="">
+            </a>
+        </div>
+
+    </div>
+</div> -->
+
+
+<div class="a-offer">
+    <div class="page-main">
+        <div class="title text-dark text-center pt-5">
+            <h3>{{text.section2.title}}</h3>
+            <img src="assets/images/line-arrow.png" alt="">
+        </div>
+        <h5 class="subtitle text-secondary mx-auto text-center pt-3 pb-3">
+            {{text.section2.subTitle}}
+        </h5>
+
+        <div class="position-relative">
+            <img src="assets/images/svg.png" alt="" class="w-100">
+            <div class="position-absolute w-100 h-100" style="top:0;">
+                <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px" y="0px" viewBox="120 0 1690 900" style="enable-background:new 0 0 1920 900;"
+                    xml:space="preserve" preserveAspectRatio="xMinYMin slice">
+                    <style type="text/css">
+                        .st1 {
+                            stroke-miterlimit: 10;
+                            cursor: pointer;
+                            stroke: #009EFF;
+                        }
+
+                        .st1:hover {
+                            stroke-width: 3;
+                        }
+                    </style>
+                    <defs>
+                        <ng-container *ngFor="let item of svgdata; index as i">
+                            <pattern [attr.id]="'img'+(i+1)" width="1" height="1">
+                                <image [attr.xlink:href]="item.image" width="205" height="205" x="0" y="-15" />
+                            </pattern>
+                        </ng-container>
+                    </defs>
+
+                    <ng-container *ngFor="let item of svgdata; index as i">
+                        <polygon [attr.fill]="'url(#img'+(i+1)+')'" class="st1" [attr.points]="item.path">
+                            <!-- <animate begin="mouseenter" fill="freeze" attributeName="stroke-dasharray" dur="100ms"
+                                to="100" />
+                            <animate begin="mouseleave" fill="freeze" attributeName="stroke-dasharray" dur="10ms" to="0" />
+                            <animate begin="mouseenter" fill="freeze" attributeName="stroke-width" dur="100ms" to="3" />
+                            <animate begin="mouseleave" fill="freeze" attributeName="stroke-width" dur="10ms" to="1" /> -->
+
+                            <animateTransform begin="mouseenter" attributeName="transform" attributeType="XML"
+                                type="translate" to="-3 3" dur="500ms" fill="freeze" />
+                            <animateTransform begin="mouseleave" attributeName="transform" attributeType="XML"
+                                type="translate" to="0 0" dur="200ms" fill="freeze" />
+                        </polygon>
+                    </ng-container>
+                </svg>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="page-main cloud-enablement">
+    <div class="title text-dark text-center pt-5">
+        <h3>{{text.section3.title}}</h3>
+        <img src="assets/images/line-arrow.png" alt="">
+    </div>
+    <div class="d-flex justify-content-between pt-5 pb-5 text-center text-secondary">
+        <div class="shadow position-relative hover-transform mr-2">
+            <img src="assets/images/img7.png" alt="" style="width:100%; max-width:300px;">
+            <p class="pt-3">{{text.section3.content[0].text}}</p>
+            <img src="assets/images/icon3.png" alt="" class="icon">
+        </div>
+        <div class="shadow position-relative hover-transform mr-2">
+            <img src="assets/images/img8.png" alt="" style="width:100%; max-width:300px;">
+            <p class="pt-3">{{text.section3.content[1].text}}</p>
+            <img src="assets/images/icon2.png" alt="" class="icon">
+        </div>
+        <div class="shadow position-relative hover-transform">
+            <img src="assets/images/img9.png" alt="" style="width:100%; max-width:300px;">
+            <p class="pt-3">{{text.section3.content[2].text}}</p>
+            <img src="assets/images/icon1.png" alt="" class="icon">
+        </div>
+    </div>
+</div>
+
+<!-- <div class="global-partner overflow-hidden">
+    <div class="title text-dark text-center pt-5">
+        <h3>{{text.section4.title}}</h3>
+        <img src="assets/images/line-arrow.png" alt="">
+    </div>
+    <div class="page-main position-relative pb-5">
+        <div class="swiper-button-prev"></div>
+        <div class="">
+            <div class="swiper-container" [swiper]="swiperConfig2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" *ngFor="let item of logoesIndex; index as i">
+                        <div class="mb-4 mt-2 mr-3 ml-2 bg-white d-flex align-items-center justify-content-center hover-logo"
+                            style="height:145px;">
+                            <img [src]="logoes[(2*i)]" alt="" style="max-height: 80%;max-width: 80%;">
+                        </div>
+                        <div class="mr-3 mb-2 ml-2 bg-white d-flex align-items-center justify-content-center hover-logo"
+                            style="height:145px;">
+                            <img [src]="logoes[2*i+1]" alt="" style="max-height: 80%;max-width: 80%;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div> -->
+
+<!-- <div class="page-main">
+    <div class="title text-dark text-center pt-5">
+        <h3>{{text.section5.title}}</h3>
+        <img src="assets/images/line-arrow.png" alt="">
+    </div>
+    <div class="d-flex justify-content-between pt-5 pb-5 text-center text-secondary">
+        <div class="shadow-sm pt-4 hover-translate" style="width: 28%;">
+            <img src="assets/images/img4.png" alt="" style="width: 80%; max-width: 150px;">
+            <h6 class="mt-3 text-dark">{{text.section5.content[0].title}}</h6>
+            <p class="m-0 p-3">
+                {{text.section5.content[0].subTitle}}
+            </p>
+        </div>
+        <div class="shadow-sm pt-4 hover-translate" style="width: 28%;">
+            <img src="assets/images/img5.png" alt="" style="width: 80%; max-width: 150px;">
+            <h6 class="mt-3 text-dark">{{text.section5.content[1].title}}</h6>
+            <p class="m-0 p-3">
+                {{text.section5.content[1].subTitle}}
+            </p>
+        </div>
+        <div class="shadow-sm pt-4 hover-translate" style="width: 28%;">
+            <img src="assets/images/img6.png" alt="" style="width: 80%; max-width: 150px;">
+            <h6 class="mt-3 text-dark">{{text.section5.content[1].title}}</h6>
+            <p class="m-0 p-3">
+                {{text.section5.content[2].subTitle}}
+            </p>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="why-agg text-white text-center">
+    <div class="page-main">
+        <div class="title text-dark text-center pt-5">
+            <h3 class="text-white">{{text.section6.title}}</h3>
+            <img src="assets/images/line-arrow.png" alt="">
+        </div>
+        <div class="d-flex justify-content-between pb-5">
+            <div class="w-25">
+                <div class="h1">
+                    <i></i>
+                    7*24h
+                </div>
+                <p>{{text.section6.content[0].title}}</p>
+            </div>
+            <div class="w-25">
+                <div class="h1">
+                    <i></i>
+                    99.9%
+                </div>
+                <p>{{text.section6.content[1].title}}</p>
+            </div>
+            <div class="w-25">
+                <div class="h1">
+                    <i></i>
+                    500+
+                </div>
+                <p>{{text.section6.content[2].title}}</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="contact-us text-white text-center">
+    <div class="page-main">
+        <div class="title text-dark text-center pt-5 pb-3">
+            <h3 class="text-white">{{text.section7.title}}</h3>
+            <img src="assets/images/line-arrow.png" alt="">
+            <h5 class="text-white">{{text.section7.subTitle}}</h5>
+        </div>
+        <div class="container-fluid">
+            <form [formGroup]="eweiForm" class="row" (ngSubmit)="onSubmit()">
+                <div class="col-md-7 mb-3 red-star">
+                    <input type="text" formControlName="firstName" class="form-control"
+                        [placeholder]="text.section7.content[0].title">
+                </div>
+                <div class="col-md-5 mb-3 red-star">
+                    <input type="text" formControlName="lastName" class="form-control"
+                        [placeholder]="text.section7.content[1].title">
+                </div>
+                <div class="col-md-7 mb-3 red-star">
+                    <input type="text" formControlName="emailAddress" class="form-control"
+                        [placeholder]="text.section7.content[2].title">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <input type="tel" formControlName="phoneNumber" class="form-control"
+                        [placeholder]="text.section7.content[3].title">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <input type="text" formControlName="companyName" class="form-control"
+                        [placeholder]="text.section7.content[4].title">
+                </div>
+                <div class="col-md-12 mb-3 red-star">
+                    <textarea formControlName="consultContent" class="form-control" rows="5" style="resize:none"
+                        [placeholder]="text.section7.content[5].title"></textarea>
+                </div>
+                <div class="text-center pt-3 pb-5" style="width:100%">
+                    <button class="btn btn-blue btn-long">
+                        <img src="assets/images/loading-spokes.svg" width="20" class="mr-1" alt="" *ngIf="formLoading">
+                        {{text.section7.btnText}}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ -->

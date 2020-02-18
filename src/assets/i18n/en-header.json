@@ -1,0 +1,44 @@
+{
+	"header": {
+		"menu": [
+			{
+				"title": "Home",
+				"url": "",
+				"isUrl": false,
+				"exact": true
+			},
+			{
+				"title": "Nav1",
+				"url": "product",
+				"isUrl": false
+			},
+			{
+				"title": "Nav2",
+				"url": "solution",
+				"isUrl": false
+			},
+			{
+				"title": "Nav3",
+				"url": "user-story",
+				"isUrl": false,
+				"exact": false
+			},
+			{
+				"title": "Nav4",
+				"url": "cooperation",
+				"isUrl": false
+			},
+			{
+				"title": "Nav5",
+				"url": "csp",
+				"isUrl": false
+			},
+			{
+				"title": "About Us",
+				"url": "about",
+				"isUrl": false
+			}
+		]
+	},
+	"siteLogo": "/assets/images/logo-en.png"
+}

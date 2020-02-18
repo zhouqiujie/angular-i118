@@ -1,0 +1,120 @@
+{
+	"index": {
+		"videoTitle": "测试测测测试测试测试",
+		"banner": [
+			{
+				"img": "/assets/images/banner-chinese.png",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"text": "",
+				"url": ""
+			}
+		],
+		"section1": {
+			"content": [
+				{
+					"link": "",
+					"linkText": "查看更多 >>",
+					"title": "测试测测测试测试测试"
+				},
+				{
+					"link": "",
+					"linkText": "查看更多>>",
+					"title": "测试测测测试测试测试"
+				},
+				{
+					"link": "",
+					"linkText": "查看更多 >>",
+					"title": "测试测测测试测试测试"
+				}
+			],
+			"subTitle": "测试测测测试测试测试",
+			"title": "测试测测测试测试测试"
+		},
+		"section2": {
+			"subTitle": "测试测测测试测试测试",
+			"title": "测试测测测试测试测试"
+		},
+		"section3": {
+			"content": [
+				{
+					"text": "测试测测测试测试测试"
+				},
+				{
+					"text": "测试测测测试测试测试"
+				},
+				{
+					"text": "测试测测测试测试测试"
+				}
+			],
+			"subTitle": "",
+			"title": "测试测测测试测试测试"
+		},
+		"section4": {
+			"title": "测试测测测试测试测试"
+		},
+		"section5": {
+			"content": [
+				{
+					"subTitle": "测试测测测试测试测试",
+					"title": "测试测测测试测试测试"
+				},
+				{
+					"subTitle": "测试测测测试测试测试",
+					"title": "测试测测测试测试测试"
+				},
+				{
+					"subTitle": "测试测测测试测试测试",
+					"title": "测试测测测试测试测试"
+				}
+			],
+			"title": "测试测测测试测试测试"
+		},
+		"section6": {
+			"content": [
+				{
+					"title": "测试测测测试测试测试",
+					"value": "7*24h"
+				},
+				{
+					"title": "测试测测测试测试测试",
+					"value": "99.9% "
+				},
+				{
+					"title": "测试测测测试测试测试",
+					"value": "500+"
+				}
+			],
+			"title": "测试测测测试测试测试"
+		},
+		"section7": {
+			"btnText": "提交",
+			"content": [
+				{
+					"title": "名"
+				},
+				{
+					"title": "姓"
+				},
+				{
+					"title": "邮箱"
+				},
+				{
+					"title": "手机号码"
+				},
+				{
+					"title": "公司名称"
+				},
+				{
+					"title": "您的需求？"
+				}
+			],
+			"subTitle": "寻求更多的帮助",
+			"title": "联系我们"
+		},
+		"title": "首页 {{value}}"
+	}
+}

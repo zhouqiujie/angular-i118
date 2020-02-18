@@ -1,0 +1,22 @@
+{
+	"footer": {
+		"links": [
+			{"logo": "", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "TitleTitle", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "Title", "url": ""},
+			{"title": "Title", "url": "/"},
+			{"title": "Q&A", "url": "/"},
+			{"title": "Contact Us", "url": "xx@xxxx.com"}
+		],
+		"copyright": [
+			"Copyright 2019. xxxxx Co., Ltd. All Rights Reserved. xxxxxx Co.,Ltd",
+			"Address：xxxxxxx Road, xxxxxx, xxxxxxx. Tel(Chinese Only)：343434",
+			"沪ICP备xxxxxx"
+		]
+	}
+}

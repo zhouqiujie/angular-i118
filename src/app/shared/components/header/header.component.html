@@ -1,0 +1,29 @@
+<header>
+    <nav class="navbar navbar-expand-xl navbar-dark pl-5 pr-5">
+        <a routerLink="/" class="navbar-brand mr-5 p-0">
+            <img src="assets/images/logo-en.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+            (click)="clickCollapse()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [ngClass]='{ "show": collapse }'>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" routerLinkActive="active" *ngFor="let item of text.menu"
+                [routerLinkActiveOptions]="{exact: true}">
+                    <a [href]="item.url" class="nav-link" *ngIf="item.isUrl" (click)="hideNavList()">{{item.title}}</a>
+                    <a [routerLink]="item.url" class="nav-link" *ngIf="!item.isUrl" (click)="hideNavList()">{{item.title}}</a>
+                </li>
+            </ul>
+            <div class="my-2 my-xl-0">
+                <!-- {{currentLang == 'en'? 'Switch Language':'切换语言'}} -->
+                <button class="btn btn-sm btn-dark ml-3" *ngIf="currentLang=='en'" (click)="changeLan('zh')">中</button>
+                <button class="btn btn-sm btn-dark ml-3" *ngIf="currentLang=='zh'"
+                    (click)="changeLan('en')">English</button>
+            </div>
+        </div>
+
+
+    </nav>
+</header>

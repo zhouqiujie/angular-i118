@@ -1,0 +1,120 @@
+{
+	"index": {
+		"videoTitle": "title title",
+		"banner": [
+			{
+				"img": "/assets/images/banner-english.png",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"text": "",
+				"url": ""
+			}
+		],
+		"section1": {
+			"content": [
+				{
+					"link": "",
+					"linkText": "Explore More >>",
+					"title": "test1test1"
+				},
+				{
+					"link": "",
+					"linkText": "Explore More >>",
+					"title": "test1test1"
+				},
+				{
+					"link": "",
+					"linkText": "Explore More >>",
+					"title": "test1test1"
+				}
+			],
+			"subTitle": "test testtest testtest testtest testtest test",
+			"title": "test testtest testtest test?"
+		},
+		"section2": {
+			"subTitle": "test testtest testtest test",
+			"title": "test testtest testtest test"
+		},
+		"section3": {
+			"content": [
+				{
+					"text": "test testtest testtest testtest testtest test"
+				},
+				{
+					"text": "test testtest test"
+				},
+				{
+					"text": "test testtest testtest test"
+				}
+			],
+			"subTitle": "",
+			"title": "test testtest test"
+		},
+		"section4": {
+			"title": "test testtest test"
+		},
+		"section5": {
+			"content": [
+				{
+					"subTitle": "test testtest test",
+					"title": "test testtest test"
+				},
+				{
+					"subTitle": "test testtest testtest testtest testtest testtest testtest test",
+					"title": "test testtest testtest test"
+				},
+				{
+					"subTitle": "test testtest testtest testtest test",
+					"title": "test testtest testtest test"
+				}
+			],
+			"title": "test testtest testtest testtest test"
+		},
+		"section6": {
+			"content": [
+				{
+					"title": "test testtest testtest test",
+					"value": "test test"
+				},
+				{
+					"title": "test testtest testtest test",
+					"value": "test test"
+				},
+				{
+					"title": "test testtest test",
+					"value": "test testtest test"
+				}
+			],
+			"title": "test testtest test?"
+		},
+		"section7": {
+			"btnText": "Submit",
+			"content": [
+				{
+					"title": "First Name"
+				},
+				{
+					"title": "Last Name"
+				},
+				{
+					"title": "Email Address"
+				},
+				{
+					"title": "Phone Number"
+				},
+				{
+					"title": "Company Name"
+				},
+				{
+					"title": "How can we asist you?"
+				}
+			],
+			"subTitle": "Looking for more support",
+			"title": "Contact us"
+		},
+		"title": "home {{value}}"
+	}
+}

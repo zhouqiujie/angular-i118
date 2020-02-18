@@ -1,0 +1,24 @@
+footer {
+  &::ng-deep {
+    .links {
+      font-size: 14px;
+      background: #292a2f;
+      padding: 20px 0;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    .company {
+      padding: 20px 0;
+      background: #2e2f35;
+      font-size: 12px;
+      line-height: 20px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
